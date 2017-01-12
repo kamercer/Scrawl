@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.main.Scrawl.WriteScreen" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:text="Create a new Document or import an existing one!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:id="@+id/line_view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_below="@+id/titleEditText"
+        android:layout_marginTop="14dp"
+        android:background="@color/LightGray" />
+
+     <Spinner
+         android:id="@+id/genreSpinner"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/line_view1"
+         android:layout_marginTop="17dp"
+         android:layout_toRightOf="@+id/textView3" />
+
+     <View
+         android:id="@+id/line_view3"
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_alignLeft="@+id/textView3"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/genreSpinner"
+         android:background="@color/LightGray" />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/line_view3"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="32dp"
+         android:background="@drawable/button"
+         android:elevation="4dp"
+         android:fontFamily="sans-serif"
+         android:onClick="submit"
+         android:text="Publish"
+         android:textColor="@color/White"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/line_view1"
+         android:layout_alignTop="@+id/genreSpinner"
+         android:text="Genre"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/SampleTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button2"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="25dp"
+         android:text="Upload Your Story!"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <View
+         android:id="@+id/line_view"
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_alignLeft="@+id/line_view1"
+         android:layout_below="@+id/SampleTextView"
+         android:layout_marginTop="19dp"
+         android:background="@color/LightGray" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView3"
+         android:layout_below="@+id/SampleTextView"
+         android:layout_marginTop="59dp"
+         android:text="Title"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/SampleTextView"
+         android:layout_toLeftOf="@+id/button3"
+         android:background="@drawable/button"
+         android:elevation="4dp"
+         android:fontFamily="sans-serif"
+         android:onClick="open"
+         android:text="Write "
+         android:textColor="@color/White"
+         android:textSize="16sp" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView2"
+         android:layout_marginTop="37dp"
+         android:layout_toRightOf="@+id/titleEditText"
+         android:background="@drawable/button"
+         android:elevation="4dp"
+         android:fontFamily="sans-serif"
+         android:onClick="publish"
+         android:text="Import"
+         android:textColor="@color/White"
+         android:textSize="16sp" />
+
+</RelativeLayout>

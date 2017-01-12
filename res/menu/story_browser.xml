@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.parse.starter.story_browser" >
+    <item android:id="@+id/refresh" 
+        android:orderInCategory="101" 
+        android:title="Refresh" 
+        android:numericShortcut="0"
+        android:icon="@drawable/ic_action_name"
+        android:onClick="onOptionsItemSelected" 
+        app:showAsAction="always">
+        
+        <menu>
+            <item android:id="@+id/item1"
+                  android:title="Recent"
+                  android:numericShortcut="1" />
+            <item android:id="@+id/item2"
+                  android:title="Top Overall"
+                  android:numericShortcut="2" />
+            <item android:id="@+id/item3"
+               	  android:title="Top from this Week"
+               	  android:numericShortcut="3" />
+            <item android:id="@+id/item4"
+                  android:title="Top from the Month"
+                  android:numericShortcut="4" />
+            <item android:id="@+id/item5"
+                  android:title="Top from the Year"
+                  android:numericShortcut="5" />
+        </menu>
+    </item>
+    
+</menu>

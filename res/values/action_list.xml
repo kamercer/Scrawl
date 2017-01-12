@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_list">
+        <item>All Genres</item>
+        <item>Comedy</item>
+        <item>Fantasy</item>
+        <item>Historical Fiction</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Poetry</item>
+        <item>Realistic Fiction</item>
+        <item>Science Fiction</item>
+        <item>Thriller</item>
+    </string-array>
+
+</resources>

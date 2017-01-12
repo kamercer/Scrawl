@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrawl</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_lobby">MainLobby</string>
+    <string name="title_activity_write_screen">WriteScreen</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_prompt_selector">PromptSelector</string>
+    <string name="title_activity_random_story">RandomStory</string>
+    <string name="title_activity_display_story">DisplayStory</string>
+    <string name="banner_ad_unit_id_displayBrowser">ca-app-pub-2377076051977130/1681162403</string>
+    <string name="banner_ad_unit_id_storyBrowser"> ca-app-pub-2377076051977130/3157895602</string>
+
+</resources>

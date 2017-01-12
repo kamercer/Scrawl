@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="Red">#F44336</color>
+    <color name="Orange">#FF9800</color>
+    <color name="DeepOrange">#FF5722</color>
+    <color name="Black">#000000</color>
+    <color name="Blue">#0000FF</color>
+    <color name="Teal">#009688</color>
+    <color name="Cyan">#00BCD4</color>
+    <color name="White">#ffffff</color>
+    <color name="Primary">#03a9f4</color>
+    <color name="PrimaryDark">#0288d1</color>
+    <color name="Accent">#ff6e40</color>
+    <color name="AccentDark">#e56339</color>
+    <color name="LightGray">#D3D3D3</color>    
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+
+</resources>
